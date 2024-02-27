@@ -15,6 +15,7 @@ class ExpenseItem extends StatelessWidget {
       ),
       child: Card(
           child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(expense.title),
           const SizedBox(
